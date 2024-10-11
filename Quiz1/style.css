@@ -1,0 +1,9 @@
+img {
+    width: 30%;
+    height: 50%;
+    padding-top: 5%;
+}
+figure {
+    position: absolute;
+    padding-left: 30%;
+}
