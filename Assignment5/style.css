@@ -1,0 +1,33 @@
+.clock {
+    background-image: url("clockimage.png");
+    background-color: plum;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200vh;
+    height: 97vh;
+}
+.minutehand { /*This is the hour hand*/
+    position: relative;
+    left: 50%;
+    top: 37%;
+    width: 15%;
+    transform-origin: left;
+    animation: rotation 86400s infinite;
+}
+.hourhand { /*This is the minute hand*/
+    position: relative;
+    left: 35%;
+    top: 40%;
+    width: 20%;
+    rotate: 270deg;
+    transform-origin: left;
+    animation: rotation 3600s infinite;
+}
+@keyframes rotation {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+img {
+    position: sticky;
+}
