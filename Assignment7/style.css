@@ -1,0 +1,87 @@
+.productblock {
+    border: 5px solid goldenrod;
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+figure {
+    margin-top: 10%;
+}
+figcaption {
+    margin-bottom: 10%;
+}
+img {
+    height: 50%;
+    width: 50%;
+}
+.seal {
+    margin-top: 9%;
+}
+.btn {
+    color: white;
+    background-color: darkorange;
+    font-size: 5vh;
+    border-radius: 10px;
+    padding: 3%;
+}
+.btn:hover{
+    background-color: navy;
+}
+h1 {
+    background-color: midnightblue;
+    color: white;
+}
+.X {
+    float: right;
+    color: white;
+}
+p {
+    background-color: midnightblue;
+    color: white;
+}
+.mdlimg {
+    padding: 5%;
+}
+.mdlbox{
+    background-color: rgba(0, 47, 255, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.mdlbox>div{
+    background-color: darkorange;
+    width:60%;
+    margin: auto;
+    text-align: center;
+}
+.mdlbox:target{
+    opacity: 1;
+    pointer-events: all;
+    transition: ease-in 0.5s;
+}
+.mdlbox2{
+    background-color: rgba(34, 139, 34, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.mdlbox2>div{
+    background-color: darkorange;
+    width:60%;
+    margin: auto;
+    text-align: center;
+}
+.mdlbox2:target{
+    opacity: 1;
+    pointer-events: all;
+    transition: ease-in 0.5s;
+}
